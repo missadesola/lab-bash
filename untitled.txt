@@ -1,0 +1,114 @@
+Last login: Mon Mar 28 23:46:20 on ttys001
+(base) MHZTTECH@MacBook-Air-2 ~ % cd Desktop
+(base) MHZTTECH@MacBook-Air-2 Desktop % mkdir IH_Labs
+(base) MHZTTECH@MacBook-Air-2 Desktop % cd IH_Labs   
+(base) MHZTTECH@MacBook-Air-2 IH_Labs % git clone https://github.com/missadesola/lab-bash.git
+Cloning into 'lab-bash'...
+remote: Enumerating objects: 40, done.
+remote: Total 40 (delta 0), reused 0 (delta 0), pack-reused 40
+Unpacking objects: 100% (40/40), done.
+(base) MHZTTECH@MacBook-Air-2 IH_Labs % ls
+lab-bash
+(base) MHZTTECH@MacBook-Air-2 IH_Labs % cd lab-bash
+(base) MHZTTECH@MacBook-Air-2 lab-bash % ls
+exercices	lorem		outputs
+inputs		lorem-copy	readme.md
+(base) MHZTTECH@MacBook-Air-2 lab-bash % echo "Hello World"
+Hello World
+(base) MHZTTECH@MacBook-Air-2 lab-bash % mkdir new_dir
+(base) MHZTTECH@MacBook-Air-2 lab-bash % rm -r new_dir
+(base) MHZTTECH@MacBook-Air-2 lab-bash % cd lorem
+(base) MHZTTECH@MacBook-Air-2 lorem % cp sed.txt lorem-copy
+(base) MHZTTECH@MacBook-Air-2 lorem % ls
+at.txt		at.txte		lorem-copy	lorem.txt	sed.txt
+(base) MHZTTECH@MacBook-Air-2 lorem % cp at.txt lorem-copy
+(base) MHZTTECH@MacBook-Air-2 lorem % cp lorem.txt lorem-copy
+(base) MHZTTECH@MacBook-Air-2 lorem % more sed.txt
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, 
+sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
+nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, 
+vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?Homo homini lupus
+ ESCOC
+s error sit voluptatem accusantium doloremque laudantium, 
+lo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+ sit aspernatur aut odit aut fugit, 
+qui ratione voluptatem sequi nesciunt. 
+sum quia dolor sit amet, consectetur, adipisci velit, 
+ncidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+xercitationem ullam corporis suscipit laboriosam, 
+r? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nih
+uptas nulla pariatur?Homo homini lupus
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(base) MHZTTECH@MacBook-Air-2 lorem % more at.txt lorem.txt
+At vero eos ET accusamus ET iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum 
+deleniti atque corrupti quos dolores ET quas molestias excepturi sint occaecati cupiditate non 
+provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum ET dolorum fuga. 
+Et harum quidem rerum facilis est ET expedita distinctio. 
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod 
+maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
+Temporibus autem quibusdam ET aut officiis debitis aut rerum necessitatibus saepe eveniET 
+ut ET voluptates repudiandae sint ET molestiae non recusandae. 
+Itaque earum rerum hic tenETur a sapiente delectus, ut aut reiciendis voluptatibus maiores 
+alias consequatur aut perferendis doloribus asperiores repellat
+...skipping...
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(base) MHZTTECH@MacBook-Air-2 lorem % cd lorem-copy  
+cd: not a directory: lorem-copy
+(base) MHZTTECH@MacBook-Air-2 lorem % cd ..
+(base) MHZTTECH@MacBook-Air-2 lab-bash % cd lorem-copy
+(base) MHZTTECH@MacBook-Air-2 lorem-copy % head -3 sed.txt
+head: sed.txt: No such file or directory
+(base) MHZTTECH@MacBook-Air-2 lorem-copy % ls
+dummy_file.txt
+(base) MHZTTECH@MacBook-Air-2 lorem-copy % cp 
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+(base) MHZTTECH@MacBook-Air-2 lorem-copy % cp ../lorem/sed.txt  
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+(base) MHZTTECH@MacBook-Air-2 lorem-copy % ls
+dummy_file.txt
+(base) MHZTTECH@MacBook-Air-2 lorem-copy % cd ..
+(base) MHZTTECH@MacBook-Air-2 lab-bash % cd lorem
+(base) MHZTTECH@MacBook-Air-2 lorem % cp ../lorem/sed.txt
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-apvXc] source_file ... target_directory
+(base) MHZTTECH@MacBook-Air-2 lorem % p sed.txt ../lorem-copy
+zsh: command not found: p
+(base) MHZTTECH@MacBook-Air-2 lorem %   
